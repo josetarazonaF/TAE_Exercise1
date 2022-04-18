@@ -9,7 +9,7 @@
         <groups>
             <run>
                 <include name="group1"></include>
-                <include name="group1"></include>
+                <include name="group2"></include>
             </run>
         </groups>
         <classes>
@@ -21,7 +21,7 @@
         <groups>
             <run>
                 <include name="group1"></include>
-                <include name="group1"></include>
+                <include name="group3"></include>
             </run>
         </groups>
         <classes>
