@@ -1,13 +1,31 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="example test suite" verbose="1">
-	<listeners>
-		<listener class-name="com.web.automation.listener.Listener"/>
-	</listeners>
-	
-	<test name="myTest">
-		<classes>
-			<class name=""></class>
-		</classes>
-	</test>
+<suite name="Taller 1 TestNG" verbose="1">
+    <listeners>
+        <listener class-name="com.web.automation.listener.Listener"/>
+    </listeners>
+
+    <test name="Facebook Delete Friend">
+        <groups>
+            <run>
+                <include name="group1"></include>
+                <include name="group1"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.web.automation.test.TestApp"></class>
+        </classes>
+    </test>
+
+    <test name="Facebook Change PFP">
+        <groups>
+            <run>
+                <include name="group1"></include>
+                <include name="group1"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.web.automation.test.TestApp"></class>
+        </classes>
+    </test>
 </suite>
